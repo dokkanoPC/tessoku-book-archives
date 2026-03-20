@@ -21,11 +21,6 @@ void Show(const std::vector<int> &v)
 
     std::cout << "}\n";
 }
-/*struct Edge {方向あり
-    int from;
-    int to;
-    int cost;//重みあり
- };*/
 int main()
 {
     int N, M, a, b;
