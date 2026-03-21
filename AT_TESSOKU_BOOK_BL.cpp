@@ -57,11 +57,11 @@ int main()
             {
                 Q.push(to);
                 v.at(to) = v.at(top) + G.at(top).at(i).cost;
-                std::cout << to << ' ' << v.at(to) << '\n';
+                // std::cout << to << ' ' << v.at(to) << '\n';
             }
             else if (v.at(top) + G.at(top).at(i).cost < v.at(to))
             {
-                std::cout << to << ' ' << v.at(to) << '\n';
+                // std::cout << to << ' ' << v.at(to) << '\n';
                 Q.push(to);
                 v.at(to) = v.at(top) + G.at(top).at(i).cost;
             }
